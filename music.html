@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attia</title>
+    <link rel="stylesheet" type="text/css" href="css/music.css">
+    <link rel="stylesheet" media="screen and (max-width: 425px)" href="music phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <img src="images/back.jpg" alt="backgroung" id="BG">
+    <div class="mhn-player">
+        <div class="album-art"></div>
+        <div class="play-list">
+            <a href="#" class="play" data-id="1" data-title=" بونبوني ساقط في نوتيل" data-albumart="images/4.jfif"
+                data-url="music/بونبونى.mp3"></a>
+
+            <a href="#" class="play" data-id="2" data-title="شارع أيامي" data-albumart="images/2.jfif
+                " data-url="music/شارع ايامى.mp3"></a>
+
+            <a href="#" class="play" data-id="3" data-title="مهرجان عود البطل ملفوف" data-albumart="images/3.jfif
+                " data-url="music/عود البطل.mp3"></a>
+
+            <a href="#" class="play" data-id="4" data-title="مهرجان كعب الغزال" data-albumart="images/1.jfif"
+                data-url="music/كعب الغزال.mp3"></a>
+
+            <a href="#" class="play" data-id="5" data-title="مهرجان انا على وضعي " data-albumart="images/9.jfif"
+                data-url="music/انا على وضعى.mp3"></a>
+
+            <a href="#" class="play" data-id="7" data-title="يابنت قلبي" data-albumart="images/5.jfif"
+                data-url="music/يابنت قلبى.mp3"></a>
+
+            <a href="#" class="play" data-id="8" data-title="مهرجان بنت الجيران" data-albumart="images/8.jfif"
+                data-url="music/بنت الجيران.mp3""></a>
+
+            <a href=" #" class="play" data-id="9" data-title="رجوعك تاني لحياتي" data-albumart="images/10.jfif"
+                data-url="music/رجوعى تانى.mp3"></a>
+
+            <a href="#" class="play" data-id="10" data-title="مهرجان شبح المجال" data-albumart="images/12.jfif"
+                data-url="music/شبح المجال.mp3"></a>
+
+            <a href="#" class="play" data-id="11" data-title="يا هرم" data-albumart="images/11.jfif"
+                data-url="music/ياهرم.mp3"></a>
+
+
+            <a href="#" class="play" data-id="14" data-title="اغنية مهرجان دول مش بشر" data-albumart="images/14.jfif"
+                data-url="music/دول مش بشر.mp3"></a>
+
+            <a href="#" class="play" data-id="15" data-title="اغنية الراجل المظبوط" data-albumart="images/15.jfif"
+                data-url="music/الراجل المظبوط.mp3"></a>
+
+            <a href="#" class="play" data-id="16" data-title="اغنية مهرجان شقيهم بس اديهم"
+                data-albumart="images/16.jfif" data-url="music/مهرجان شقيهم بس اديهم.mp3"></a>
+
+            <a href="#" class="play" data-id="17" data-title="مهرجان كل شارع في مصر" data-albumart="images/17.jfif"
+                data-url="music/مهرجان كل شارع في مصر.mp3"></a>
+
+            <a href="#" class="play" data-id="19" data-title="اغنية مهرجان ازرعها بلح" data-albumart="images/18.jfif"
+                data-url="music/مهرجان ازرعها بلح.mp3"></a>
+
+            <a href="#" class="play" data-id="20" data-title="مهرجان احنا بتوع ربنا" data-albumart="images/19.jfif"
+                data-url="music/مهرجان احنا بتوع ربنا.mp3"></a>
+
+            <a href="#" class="play" data-id="22" data-title="اغنية مهرجان البيه البواب" data-albumart="images/20.jfif"
+                data-url="music/اغنية مهرجان البيه البواب.mp3"></a>
+
+            <a href="#" class="play" data-id="23" data-title="غنية مهرجان قرصة ودن" data-albumart="images/22.jfif"
+                data-url="music/اغنية مهرجان قرصة ودن.mp3"></a>
+        </div>
+        <div class="audio"></div>
+        <div class="current-info">
+            <div class="song-title"></div>
+        </div>
+        <div class="controls">
+            <a href="#" class="toggle-play-list"><i class="fa fa-list-ul"></i></a>
+            <div class="duration clearfix">
+                <span class="pull-left play-position"></span>
+                <span class="pull-right"><span class="play-current-time">00:00</span> / <span
+                        class="play-total-time">00:00</span></span>
+            </div>
+            <div class="progress">
+                <div class="bar"></div>
+            </div>
+            <div class="action-button">
+                <a href="#" class="prev"><i class="fa fa-step-backward"></i></a>
+                <a href="#" class="play-pause"><i class="fa fa-pp"></i></a>
+                <!-- <a href="#" class="stop"><i class="fa fa-stop"></i></a> -->
+                <a href="#" class="next"><i class="fa fa-step-forward"></i></a>
+                <input type="range" class="volume" min="0" max="1" step="0.1" value="0.5" data-css="0.5">
+            </div>
+
+        </div>
+    </div>
+    <script src="js/music.js"></script>
+
+</body>
+
+</html>
